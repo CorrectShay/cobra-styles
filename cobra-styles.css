@@ -1,0 +1,23 @@
+/*Sets the page background to the blue neurodiversity background colour so there are not white gaps between sections*/
+#PageContentOuterDiv {
+    background-color: #eaf2fb;
+}
+
+/*Removes the invisible 1px spacing on the bottom oh hidden sections so trailing sections are not pushed down the page when using report selectors and conditional analysis*/
+td:not([class]) {
+    padding: 0;
+}
+
+.cobra-dashboard-title {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(27, 79, 114);
+    font-family: arial,sans-serif;
+    margin-bottom: 10px;
+}
+
+.cobra-section-text {
+    line-height: 1.5;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
